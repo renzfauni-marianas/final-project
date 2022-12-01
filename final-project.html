@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layoutmain.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="grid-content">
+        <div class="header">
+            <div class="menu">
+                <nav>
+                    <ul>
+                         <li>
+                            <a href="https://renzfauni.000webhostapp.com/final-project/banzai.html">Area 1 |</a>
+                        </li>
+                        <li>
+                            <a href="https://renzfauni.000webhostapp.com/final-project/birdisland.html"><Area></Area> Area 2 |</a>
+                        </li>
+                        <li>
+                            <a href="https://renzfauni.000webhostapp.com/final-project/grotto.html">Area 3 |</a>
+                        </li>
+                        <li>
+                            <a href="https://renzfauni.000webhostapp.com/final-project/lastcommand.html">Area 4 |</a>
+                        </li>
+                        <li>
+                            <a href="https://renzfauni.000webhostapp.com/final-project/saipansign.html">Area 5</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        Link to Location List: <a href="https://renzfauni.000webhostapp.com/final-project/locationlist.html">CLICK HERE</a>
+        <form method="POST" action="https://jkorpela.fi/cgi-bin/echo.cgi" target="cgi-results">
+            <fieldset >
+                <legend>Name Information:</legend>
+                <label for="firstName">First Name:</label>
+                <input type="text" class="name-info" tabindex="0" required id="firstName" placeholder="Please type your first name" name="firstName"><br>
+                <label for="lastName">Last Name:</label>
+                <input type="text" class="name-info" tabindex="1" required id="lastName" placeholder="Please type your last name" name="lastName">
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information:</legend>
+                <label for="email">Email:</label>
+                <input type="email" class="contact-info" tabindex="2" title="Input Your Email Address" name="email" id="email" placeholder="Input your Email Address"><br>
+                <label for="telephone">Phone:</label>
+                <input type="tel" class="contact-info" tabindex="3" title="Input Phone Number" name="telephone" placeholder="Input your Mobile Number" id="telephone">
+            </fieldset>
+            <fieldset>
+                <legend>Date Information:</legend>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" tabindex="4" required id="dob"><br>
+                <label for="today">Today's Date:</label>
+                <input type="date" name="today" tabindex="5" value="2022-12-01" id="today">
+            </fieldset>
+            <fieldset>
+                <input tabindex="6" type="submit">
+            </fieldset>
+        </form>
+        <iframe name="cgi-results" id="cg-results"></iframe>
+        <style>
+            .name-info {
+                width: 300px;
+            }
+            .contact-info {
+                width: 300px;
+            }
+        </style>
+
+        
+
+    </div>
+    <hr>
+    <div id="footer">
+        Renz Fauni<br>
+        renz.fauni@my.marianas.edu<br>
+        (670) 785-6283<br>
+        CSS222 - HY01
+    </div>
+</body>
+
+</html>

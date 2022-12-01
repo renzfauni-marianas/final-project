@@ -1,0 +1,109 @@
+body {
+    background-image: url('images/blue.jpeg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: auto;
+    opacity: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+}
+
+.grid-content {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('');
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgba(96, 198, 226, 0.584);
+    column-gap: 10px;
+    row-gap: 10px;
+    max-height: 2000px;
+}
+
+.grid-content>div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 8px 8px;
+}
+
+.header {
+    background-image: url('images/finalheader.png');
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    box-shadow: rgb(0, 0, 0) 5px 5px 10px;
+}
+
+.menu {
+
+    position: relative;
+    height: 100px;
+}
+
+.menu nav {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.header nav ul {
+    list-style: none;
+}
+
+.header nav ul>li {
+    float: left;
+    margin: 10px;
+}
+
+.header nav ul>li>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 5px 5px 10px,
+        rgb(0, 0, 0) 5px 5px 10px;
+}
+
+.item1 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 20px;
+    background-color: lightblue;
+    opacity: 80% box-shadow: rgb(0, 0, 0)4px 4px 7px;
+}
+
+.item2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    padding: 20px;
+    background-color: cyan;
+    opacity: 80% box-shadow: rgb(0, 0, 0)4px 4px 7px;
+}
+
+.item3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    padding: 20px;
+    background-color: aquamarine;
+    opacity: 80% box-shadow: rgb(0, 0, 0)4px 4px 7px;
+}
+
+h1 {
+    padding-left: 0.4em;
+    text-align: center;
+    height: 10em;
+}
+
+h2 {
+    padding-left: 0.4em;
+    text-align: center;
+    height: 10em;
+}
+caption {
+    padding-left: 12em;
+}
